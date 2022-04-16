@@ -1,0 +1,149 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  cursor: zoom-out;
+}
+.modal-content {
+  /* min-height: 350px; */
+  /* padding: 25px; */
+  width: 100%;
+  max-width: 700px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #fff;
+  cursor: auto;
+}
+.modal-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10rem;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.button {
+  display: block;
+  width: 150px;
+  border: 0;
+  background-color: #2979ff;
+  color: white;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+
+.modal-content_top {
+  width: 100%;
+  min-height: 170px;
+  border-radius: 20px 20px 0 0;
+  background-color: #ec2953;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-circle {
+  color: #fff;
+  width: 100px;
+  height: 100px;
+}
+.modal-content_bott {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-content-wrap {
+  color: #555;
+}
+
+.modal-content_title {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.modal-content_text {
+  margin: 20px;
+}
+
+.btn-control {
+  background-color: #eeb711;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 12px 45px;
+  border: none;
+}
